@@ -1,0 +1,53 @@
+# Local environments and generated builds
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.spec
+build/
+build-assets/
+dist/
+release/
+opensource/
+*.exe
+
+# Private workspaces, browser sessions, imported articles and evidence
+data/
+dev-data/
+exe-smoke-data/
+validation/
+evidence/
+imports/
+assets/
+wechat-profile/
+workbench-profile/
+*browser-profile*/
+.tmp*/
+*.sqlite*
+*.db
+*.log
+vault.key
+Cookies
+Cookies-journal
+Local State
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.key
+
+# Editors and machine files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Root-level import/export files are private by default.
+/*.zip
+/*.html
+/*.txt
+!/requirements.txt
+!/requirements-lock.txt
+!/THIRD_PARTY_LICENSES.txt
+!/SHA256SUMS.txt
